@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c7b3c</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="pin_text_color">#808080</color>
+
+    <color name="positive_red">#FFFF0000</color>
+    <color name="negative_blue">#FF0000FF</color>
+
+    <color name="pinhole_default">#FFdfdfdf</color>
+    <color name="pinhole_default_outline">#FF808080</color>
+
+</resources>

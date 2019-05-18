@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutIinitialView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraintLayoutInnerView"
+                android:layout_width="512dp"
+                android:layout_height="1294dp"
+                android:background="@drawable/rails_on_breadboard">
+
+                <fragment
+                    android:name="com.csc400.eric.morpi.Pins.PinFragment"
+                    android:id="@+id/pinFragmentContainer"
+                    android:layout_width="124dp"
+                    android:layout_height="808dp"
+                    android:layout_marginStart="194dp"
+                    android:translationY="0dp"
+                    android:background="#3c7b3c"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <!-- Breadboard Left -->
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/leftPosNegPinholes"
+                    android:layout_width="48dp"
+                    android:layout_height="1140dp"
+                    android:background="@drawable/pinholes_positive_negative_left"
+                    android:translationX="17dp"
+                    android:translationY="94dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/leftPinholesOneToEighty"
+                    android:layout_width="104dp"
+                    android:layout_height="780dp"
+                    android:background="@drawable/pinholes_four_by_twenty_left"
+                    android:translationX="82dp"
+                    android:translationY="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/leftPinholesEightyOneToOneForty"
+                    android:layout_width="132dp"
+                    android:layout_height="460dp"
+                    android:background="@drawable/pinholes_five_by_twelve_left"
+                    android:translationX="82dp"
+                    android:translationY="814dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+                <!-- Breadboard Right -->
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/rightPosNegPinholes"
+                    android:layout_width="48dp"
+                    android:layout_height="1140dp"
+                    android:background="@drawable/pinholes_positive_negative_right"
+                    android:translationX="447dp"
+                    android:translationY="94dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/rightPinholesOneToEighty"
+                    android:layout_width="104dp"
+                    android:layout_height="780dp"
+                    android:background="@drawable/pinholes_four_by_twenty_right"
+                    android:translationX="326dp"
+                    android:translationY="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/rightPinholesEightyOneToOneForty"
+                    android:layout_width="132dp"
+                    android:layout_height="460dp"
+                    android:background="@drawable/pinholes_five_by_twelve_right"
+                    android:translationX="298dp"
+                    android:translationY="814dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLayoutHardware"
+                    android:layout_width="512dp"
+                    android:layout_height="1294dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"/>
+
+                <com.csc400.eric.morpi.Wiring.WiringConfigurationDisplay
+                    android:id="@+id/wiringConfigDisplay"
+                    android:layout_width="512dp"
+                    android:layout_height="1294dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="124dp"
+    android:layout_height="808dp"
+    tools:context=".Pins.PinFragment">
+
+    <!-- Pins -->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayoutPins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3c7b3c"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/pin_1"
+            android:layout_width="52dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/power_3v3"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/pin_2"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/power_5v"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/pin_3"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_2"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_1" />
+
+        <Button
+            android:id="@+id/pin_4"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/power_5v"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_3"
+            app:layout_constraintTop_toBottomOf="@+id/pin_2" />
+
+        <Button
+            android:id="@+id/pin_5"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_3"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_3" />
+
+        <Button
+            android:id="@+id/pin_6"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_5"
+            app:layout_constraintTop_toBottomOf="@+id/pin_4" />
+
+        <Button
+            android:id="@+id/pin_7"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_4"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_5" />
+
+        <Button
+            android:id="@+id/pin_8"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_14"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_7"
+            app:layout_constraintTop_toBottomOf="@+id/pin_6" />
+
+        <Button
+            android:id="@+id/pin_9"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_7" />
+
+        <Button
+            android:id="@+id/pin_10"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_15"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_9"
+            app:layout_constraintTop_toBottomOf="@+id/pin_8" />
+
+        <Button
+            android:id="@+id/pin_11"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:tag="17"
+            android:text="@string/gpio_17"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_9" />
+
+        <Button
+            android:id="@+id/pin_12"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_18"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_11"
+            app:layout_constraintTop_toBottomOf="@+id/pin_10" />
+
+        <Button
+            android:id="@+id/pin_13"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:tag="27"
+            android:text="@string/gpio_27"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_11" />
+
+        <Button
+            android:id="@+id/pin_14"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_13"
+            app:layout_constraintTop_toBottomOf="@+id/pin_12" />
+
+        <Button
+            android:id="@+id/pin_15"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_22"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_13" />
+
+        <Button
+            android:id="@+id/pin_16"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_23"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_15"
+            app:layout_constraintTop_toBottomOf="@+id/pin_14" />
+
+        <Button
+            android:id="@+id/pin_17"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/power_3v3"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_15" />
+
+        <Button
+            android:id="@+id/pin_18"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_24"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_17"
+            app:layout_constraintTop_toBottomOf="@+id/pin_16" />
+
+        <Button
+            android:id="@+id/pin_19"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_10"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_17" />
+
+        <Button
+            android:id="@+id/pin_20"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_19"
+            app:layout_constraintTop_toBottomOf="@+id/pin_18" />
+
+        <Button
+            android:id="@+id/pin_21"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_9"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_19" />
+
+        <Button
+            android:id="@+id/pin_22"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_25"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_21"
+            app:layout_constraintTop_toBottomOf="@+id/pin_20" />
+
+        <Button
+            android:id="@+id/pin_23"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_11"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_21" />
+
+        <Button
+            android:id="@+id/pin_24"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_8"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_23"
+            app:layout_constraintTop_toBottomOf="@+id/pin_22" />
+
+        <Button
+            android:id="@+id/pin_25"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_23" />
+
+        <Button
+            android:id="@+id/pin_26"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_7"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_25"
+            app:layout_constraintTop_toBottomOf="@+id/pin_24" />
+
+        <Button
+            android:id="@+id/pin_27"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_0"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_25" />
+
+        <Button
+            android:id="@+id/pin_28"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_1"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_27"
+            app:layout_constraintTop_toBottomOf="@+id/pin_26" />
+
+        <Button
+            android:id="@+id/pin_29"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_5"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_27" />
+
+        <Button
+            android:id="@+id/pin_30"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_29"
+            app:layout_constraintTop_toBottomOf="@+id/pin_28" />
+
+        <Button
+            android:id="@+id/pin_31"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_6"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_29" />
+
+        <Button
+            android:id="@+id/pin_32"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_12"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_31"
+            app:layout_constraintTop_toBottomOf="@+id/pin_30" />
+
+        <Button
+            android:id="@+id/pin_33"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_13"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_31" />
+
+        <Button
+            android:id="@+id/pin_34"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_33"
+            app:layout_constraintTop_toBottomOf="@+id/pin_32" />
+
+        <Button
+            android:id="@+id/pin_35"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_19"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_33" />
+
+        <Button
+            android:id="@+id/pin_36"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_16"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_35"
+            app:layout_constraintTop_toBottomOf="@+id/pin_34" />
+
+        <Button
+            android:id="@+id/pin_37"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_26"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_35" />
+
+        <Button
+            android:id="@+id/pin_38"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_20"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pin_37"
+            app:layout_constraintTop_toBottomOf="@+id/pin_36" />
+
+        <Button
+            android:id="@+id/pin_39"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/ground"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pin_37" />
+
+        <Button
+            android:id="@+id/pin_40"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/pin_default"
+            android:contentDescription="@string/off"
+            android:text="@string/gpio_21"
+            android:textColor="@color/pin_text_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pin_39"
+            app:layout_constraintTop_toBottomOf="@+id/pin_38" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

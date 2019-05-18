@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">MoRPi</string>
+
+    <string-array name="wire_colors">
+        <item name="white">White</item>
+        <item name="black">Black</item>
+        <item name="red">Red</item>
+        <item name="blue">Blue</item>
+        <item name="yellow">Yellow</item>
+    </string-array>
+
+    <string-array name="wire_end_config_options">
+        <item name="unplug">Unplug</item>
+        <item name="change_color">Change Color</item>
+    </string-array>
+
+    <string-array name="wire_config_options">
+        <item name="unplug_end">Unplug End</item>
+        <item name="remove_wire">Remove Wire</item>
+        <item name="change_wire_color">Change Wire Color</item>
+    </string-array>
+
+    <string-array name="project_directory_types">
+        <item name="project_templates">ProjectTemplates</item>
+        <item name="user_projects">UserProjects</item>
+    </string-array>
+
+    <string-array name="project_templates">
+        <item name="temp_one">Template1</item>
+        <item name="temp_two">Template2</item>
+    </string-array>
+
+    <string-array name="user_projects">
+        <item name="user_one">UserProj1</item>
+        <item name="user_two">UserProj2</item>
+    </string-array>
+
+    <string-array name="resistor_config_options">
+        <item name="change_location">Change Location</item>
+        <item name="change_orientation">Change Orientation</item>
+        <item name="delete_component">Remove</item>
+    </string-array>
+
+    <string-array name="led_config_options">
+        <item name="change_location">Change Location</item>
+        <item name="change_orientation">Change Orientation</item>
+        <item name="modify_on_interval">Modify On Interval</item>
+        <item name="modify_off_interval">Modify Off Interval</item>
+        <item name="change_num_of_blinks">Change Number of Blinks</item>
+        <item name="delete_component">Remove</item>
+    </string-array>
+
+    <string name="plus_sign" >+</string>
+    <string name="minus_sign">-</string>
+
+    <string name="off">off</string>
+
+    <string name="power_3v3">3V3 Power</string>
+    <string name="power_5v">5V0 Power</string>
+    <string name="ground">GND</string>
+
+    <string name="gpio_0">GPIO0 SDA0</string>
+    <string name="gpio_1">GPIO1 SCL0</string>
+    <string name="gpio_2">GPIO2 SDA1</string>
+    <string name="gpio_3">GPIO3 SCL1</string>
+    <string name="gpio_4">GPIO4 GPCLKO</string>
+    <string name="gpio_5">GPIO5</string>
+    <string name="gpio_6">GPIO6</string>
+    <string name="gpio_7">GPIO7 CE1</string>
+    <string name="gpio_8">GPIO8 CEO</string>
+    <string name="gpio_9">GPIO9 MISO</string>
+    <string name="gpio_10">GPIO10 MOSI</string>
+    <string name="gpio_11">GPIO11 SCLK</string>
+    <string name="gpio_12">GPIO12</string>
+    <string name="gpio_13">GPIO13</string>
+    <string name="gpio_14">GPIO14 TXD</string>
+    <string name="gpio_15">GPIO15 RXD</string>
+    <string name="gpio_16">GPIO16</string>
+    <string name="gpio_17">GPIO17</string>
+    <string name="gpio_18">GPIO18 CLK</string>
+    <string name="gpio_19">GPIO19 FS</string>
+    <string name="gpio_20">GPIO20 DIN</string>
+    <string name="gpio_21">GPIO21 DOUT</string>
+    <string name="gpio_22">GPIO22</string>
+    <string name="gpio_23">GPIO23</string>
+    <string name="gpio_24">GPIO24</string>
+    <string name="gpio_25">GPIO25</string>
+    <string name="gpio_26">GPIO26</string>
+    <string name="gpio_27">GPIO27</string>
+
+    <string name="login">Login</string>
+    <string name="pi_login">Pi Login</string>
+    <string name="github_login">GitHub Login</string>
+
+    <string name="open_project">Open</string>
+    <string name="open_from_pi">Open From Pi</string>
+    <string name="open_from_github">Open From GitHub</string>
+
+    <string name="delete_project">Delete</string>
+    <string name="delete_from_pi">Delete From Pi</string>
+    <string name="delete_from_github">Delete From GitHub</string>
+
+    <string name="save_project">Save</string>
+    <string name="save_to_pi">Save To Pi</string>
+    <string name="save_to_github">Save To GitHub</string>
+
+    <string name="add_hardware">Add Hardware</string>
+
+    <!-- Hardware components -->
+    <string name="resistor_220">Resistor 220</string>
+    <string name="red_led">Red LED</string>
+    <!-- End Hardware components -->
+
+    <string name="wiring_display">Wiring Display</string>
+    <string name="wires_only">Wires Only</string>
+    <string name="wires_and_nums">Wires and Numbers</string>
+    <string name="wire_colors">Wire Colors</string>
+    <string name="clear_configuration">Clear Configuration</string>
+
+    <string name="all_wires">All Wires</string>
+    <string name="white_wires">White Wires</string>
+    <string name="black_wires">Black Wires</string>
+    <string name="red_wires">Red Wires</string>
+    <string name="blue_wires">Blue Wires</string>
+    <string name="yellow_wires">Yellow Wires</string>
+
+    <string name="open_source_code">Open Source Code</string>
+    <string name="run_project">Run</string>
+
+    <!-- Edit Text Hints -->
+    <string name="untitled">Untitled</string>
+
+    <string name="piUsername">Username</string>
+    <string name="piPassword">Password</string>
+    <string name="ipaddress">Ip Address</string>
+
+    <string name="project_templates">Project Templates</string>
+    <string name="user_projects">User Projects</string>
+
+
+</resources>

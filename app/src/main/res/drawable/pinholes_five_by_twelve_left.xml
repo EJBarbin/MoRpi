@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pinhole_left_81"
+        android:top="0dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_82"
+        android:top="0dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_83"
+        android:top="0dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_84"
+        android:top="0dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_85"
+        android:top="0dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_86"
+        android:top="40dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_87"
+        android:top="40dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_88"
+        android:top="40dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_89"
+        android:top="40dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_90"
+        android:top="40dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_91"
+        android:top="80dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_92"
+        android:top="80dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_93"
+        android:top="80dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_94"
+        android:top="80dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_95"
+        android:top="80dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_96"
+        android:top="120dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_97"
+        android:top="120dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_98"
+        android:top="120dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_99"
+        android:top="120dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_100"
+        android:top="120dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_101"
+        android:top="160dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_102"
+        android:top="160dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_103"
+        android:top="160dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_104"
+        android:top="160dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_105"
+        android:top="160dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_106"
+        android:top="200dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_107"
+        android:top="200dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_108"
+        android:top="200dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_109"
+        android:top="200dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_110"
+        android:top="200dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_111"
+        android:top="240dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_112"
+        android:top="240dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_113"
+        android:top="240dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_114"
+        android:top="240dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_115"
+        android:top="240dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_116"
+        android:top="280dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_117"
+        android:top="280dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_118"
+        android:top="280dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_119"
+        android:top="280dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_120"
+        android:top="280dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_121"
+        android:top="320dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_122"
+        android:top="320dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_123"
+        android:top="320dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_124"
+        android:top="320dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_125"
+        android:top="320dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_126"
+        android:top="360dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_127"
+        android:top="360dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_128"
+        android:top="360dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_129"
+        android:top="360dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_130"
+        android:top="360dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_131"
+        android:top="400dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_132"
+        android:top="400dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_133"
+        android:top="400dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_134"
+        android:top="400dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_135"
+        android:top="400dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_136"
+        android:top="440dp"
+        android:left="0dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_137"
+        android:top="440dp"
+        android:left="28dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_138"
+        android:top="440dp"
+        android:left="56dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_139"
+        android:top="440dp"
+        android:left="84dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/pinhole_left_140"
+        android:top="440dp"
+        android:left="112dp"
+        android:height="20dp"
+        android:width="20dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/pinhole_default_outline"/>
+            <solid android:color="@color/pinhole_default"/>
+        </shape>
+    </item>
+
+</layer-list>

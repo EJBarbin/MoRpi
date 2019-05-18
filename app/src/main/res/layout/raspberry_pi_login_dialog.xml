@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/raspberryPiUsernameEditText"
+        android:hint="@string/piUsername"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/raspberryPiPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/piPassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/raspberryPiUsernameEditText"/>
+
+    <EditText
+        android:id="@+id/raspberryPiIpAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ipaddress"
+        android:layout_below="@id/raspberryPiPasswordEditText"/>
+    
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Login -->
+    <item android:id="@+id/login"
+        android:title="@string/login"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/login_pi"
+                android:title="@string/pi_login" />
+            <item android:id="@+id/login_github"
+                android:title="@string/github_login" />
+        </menu>
+    </item>
+
+    <!-- Open Project -->
+    <item android:id="@+id/open_project"
+        android:title="@string/open_project"
+        android:icon="@drawable/ic_arrow_downward_black_24dp"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/open_from_pi"
+                android:title="@string/open_from_pi" >
+                <menu>
+                    <item android:id="@+id/open_project_templates_pi"
+                        android:title="@string/project_templates" />
+                    <item android:id="@+id/open_user_projects_pi"
+                        android:title="@string/user_projects" />
+                </menu>
+            </item>
+            <item android:id="@+id/open_from_github"
+                android:title="@string/open_from_github" />
+        </menu>
+    </item>
+
+    <!-- Save Project -->
+    <item android:id="@+id/save_project"
+        android:title="@string/save_project"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/save_to_pi"
+                android:title="@string/save_to_pi" />
+            <item android:id="@+id/save_to_github"
+                android:title="@string/save_to_github" />
+        </menu>
+    </item>
+
+    <!-- Delete Project -->
+    <item android:id="@+id/delete_project"
+        android:title="@string/delete_project"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/delete_pi"
+                android:title="@string/delete_from_pi" >
+                <menu>
+                    <item android:id="@+id/delete_project_template_pi"
+                        android:title="@string/project_templates" />
+                    <item android:id="@+id/delete_user_project_pi"
+                        android:title="@string/user_projects" />
+                </menu>
+            </item>
+            <item android:id="@+id/delete_github"
+                android:title="@string/delete_from_github" />
+        </menu>
+    </item>
+
+    <!-- Add Hardware components -->
+    <item android:id="@+id/hardware"
+        android:title="@string/add_hardware"
+        android:icon="@drawable/ic_build_black_24dp"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/resistor_220"
+                android:title="@string/resistor_220" />
+            <item android:id="@+id/red_led"
+                android:title="@string/red_led" />
+        </menu>
+    </item>
+
+    <!-- Wiring -->
+    <item android:id="@+id/wiring_display_options"
+        android:title="@string/wiring_display"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/wires_only"
+                android:title="@string/wires_only" />
+            <item android:id="@+id/wires_and_nums"
+                android:title="@string/wires_and_nums" />
+            <item android:id="@+id/wire_colors"
+                android:title="@string/wire_colors" >
+                <menu>
+                    <item android:id="@+id/all_wires"
+                        android:title="@string/all_wires" />
+                    <item android:id="@+id/white_wires"
+                        android:title="@string/white_wires" />
+                    <item android:id="@+id/black_wires"
+                        android:title="@string/black_wires" />
+                    <item android:id="@+id/red_wires"
+                        android:title="@string/red_wires" />
+                    <item android:id="@+id/blue_wires"
+                        android:title="@string/blue_wires" />
+                    <item android:id="@+id/yellow_wires"
+                        android:title="@string/yellow_wires" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/clear_configuration"
+        android:title="@string/clear_configuration" />
+
+    <!-- Source Code -->
+    <item android:id="@+id/open_source_code"
+        android:title="@string/open_source_code"
+        app:showAsAction="never"/>
+
+    <!-- Run Project -->
+    <item android:id="@+id/run_project"
+        android:title="@string/run_project"
+        app:showAsAction="never"/>
+
+</menu>
